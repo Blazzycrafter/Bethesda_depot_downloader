@@ -132,7 +132,6 @@ if __name__ == '__main__':
 
     user_credentials = dict()
     user_credentials['username'] = input("Steam Username: ")
-    user_credentials['password'] = input("Steam Password (if it was remembered leave blank): ")
     steam_data.update(user_credentials)
     download_depot(steam_data=steam_data, user_credentials=user_credentials, depot_dir=depot_dir)
     # clean up
